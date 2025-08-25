@@ -18,6 +18,16 @@ export default function Hero() {
       </div>
       
       <div className="relative z-10 text-center text-white px-6">
+        
+        {/* Logo */}
+        {/* <div className="flex justify-center mb-6">
+  <img 
+    src="/draftLogo.png" 
+    alt="CodeCraft Studios Logo" 
+    className="w-20 h-20 md:w-28 md:h-28 drop-shadow-lg"
+  />
+</div> */}
+
         {/* Judul dengan animasi typing */}
         <h1 
           className="overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-3 text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent inline-block"
@@ -25,7 +35,7 @@ export default function Hero() {
             animation: 'typing 3s steps(20, end), blink-caret 0.75s step-end infinite'
           }}
         >
-          DraftCraft Studio
+          CodeCraft Studios
         </h1>
         
         <p 

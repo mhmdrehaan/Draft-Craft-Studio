@@ -33,10 +33,10 @@ export const Showcase = () => {
   return (
     <section
       id="portfolio"
-      className="mx-auto mt-20 max-w-7xl px-4 sm:px-6 lg:px-8 mb-8"
+      className="mx-auto mt-20 max-w-7xl px-4 sm:px-6 lg:px-8 mb-8 "
     >
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-8">Cuplikan Karya</h2>
+        <h2 className="text-4xl font-bold text-gray-800 mb-8">Portfolio Showcase</h2>
        
       </div>
 
